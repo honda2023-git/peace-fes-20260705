@@ -49,17 +49,17 @@
 
   <header class="py-4 px-8 border-b border-[#F5EFEB] flex justify-between items-center bg-[#FFFDF9] z-10 shrink-0">
     <div class="flex items-center space-x-3">
-      <span class="text-2xl">🕊️</span>
+      <span class="text-3xl">🕊️</span>
       <div>
-        <h1 class="font-extrabold text-lg tracking-wider text-[#4A3E3D] uppercase">Hachioji Peace Fes</h1>
-        <p class="text-xs text-[#E88265] font-semibold">私にとっての平和とは？</p>
+        <h1 class="font-extrabold text-xl tracking-wider text-[#4A3E3D] uppercase">Hachioji Peace Fes</h1>
+        <p class="text-sm text-[#E88265] font-bold">私にとっての平和とは？</p>
       </div>
     </div>
     <div class="flex items-center space-x-4">
-      <div class="bg-[#FBEBE7] text-[#E88265] text-xs font-bold px-3 py-1.5 rounded-full">
-        アンケート回答数：150名
+      <div class="bg-[#FBEBE7] text-[#E88265] text-sm font-black px-4 py-2 rounded-full">
+        アンケート回答数：954名
       </div>
-      <button onclick="togglePresenterMode()" class="text-xs border border-[#D9C3BC] hover:bg-[#F5EFEB] text-[#4A3E3D] px-3 py-1.5 rounded-full transition-all duration-300 flex items-center gap-1">
+      <button onclick="togglePresenterMode()" class="text-sm font-semibold border border-[#D9C3BC] hover:bg-[#F5EFEB] text-[#4A3E3D] px-4 py-2 rounded-full transition-all duration-300 flex items-center gap-1">
         <span id="presenter-btn-icon">🙈</span> <span id="presenter-btn-text">プロンプターを隠す</span>
       </button>
     </div>
@@ -71,49 +71,50 @@
       
       <div id="slide-0" class="slide-active w-full max-w-5xl flex flex-col items-center justify-center text-center py-8 fade-in">
         <div class="mb-6 p-4 bg-[#FBEBE7] rounded-full inline-block animate-bounce">
-          <span class="text-6xl lg:text-7xl block">🤝</span>
+          <span class="text-7xl lg:text-8xl block">🤝</span>
         </div>
-        <h2 class="text-4xl lg:text-6xl font-black text-[#4A3E3D] leading-tight tracking-wider mb-6 text-shadow-subtle">
-          平和へのアンケート結果<br><span class="text-[#E88265]">「みんなの幸せのカタチ」</span>
+        <h2 class="text-5xl lg:text-7xl font-black text-[#4A3E3D] leading-tight tracking-wider mb-6 text-shadow-subtle">
+          平和へのアンケート結果<br><span class="text-[#E88265] mt-2 block">「みんなの幸せのカタチ」</span>
         </h2>
-        <div class="w-24 h-1.5 bg-[#E88265] rounded-full mb-8"></div>
-        <p class="text-lg lg:text-2xl text-[#6D5D5B] max-w-3xl leading-relaxed font-medium">
-          フェスに先駆けて行われたアンケート。<br>
-          150人の私たちの日常にある幸せ、そして未来へのアクションを紐解きます。
+        <div class="w-32 h-2 bg-[#E88265] rounded-full mb-8"></div>
+        <p class="text-xl lg:text-3xl text-[#6D5D5B] max-w-3xl leading-relaxed font-bold">
+          フェスに先駆けて行われたアンケート<br>
+          2,500人の私たちの日常にある幸せ<br>
+          そして未来へのアクションを紐解きます
         </p>
         <div class="mt-12 flex flex-wrap gap-4 justify-center">
-          <span class="bg-[#FFF6ED] border border-[#FBEBE7] text-[#E88265] font-semibold py-2 px-5 rounded-full text-sm">#日常の幸せ</span>
-          <span class="bg-[#F0FDF4] border border-[#DCFCE7] text-[#16A34A] font-semibold py-2 px-5 rounded-full text-sm">#社会の不安</span>
-          <span class="bg-[#EFF6FF] border border-[#DBEAFE] text-[#2563EB] font-semibold py-2 px-5 rounded-full text-sm">#5つのキャラクター</span>
+          <span class="bg-[#FFF6ED] border border-[#FBEBE7] text-[#E88265] font-bold py-2.5 px-6 rounded-full text-base">#日常の幸せ</span>
+          <span class="bg-[#F0FDF4] border border-[#DCFCE7] text-[#16A34A] font-bold py-2.5 px-6 rounded-full text-base">#社会の不安</span>
+          <span class="bg-[#EFF6FF] border border-[#DBEAFE] text-[#2563EB] font-bold py-2.5 px-6 rounded-full text-base">#5つのキャラクター</span>
         </div>
       </div>
 
       <div id="slide-1" class="slide-inactive w-full max-w-5xl flex flex-col h-full justify-between fade-in">
         <div class="text-center mb-4 shrink-0">
-          <span class="text-sm font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 01</span>
-          <h2 class="text-3xl lg:text-5xl font-extrabold text-[#4A3E3D]">日常で「幸せだな〜」と感じる時は？</h2>
-          <p class="text-sm text-[#6D5D5B] mt-2 font-medium">（回答者150名・複数選択）</p>
+          <span class="text-base font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 01</span>
+          <h2 class="text-4xl lg:text-5xl font-black text-[#4A3E3D]">日常で「幸せだな〜」と感じる時は？</h2>
+          <p class="text-base text-[#6D5D5B] mt-2 font-bold">（回答者954名・複数選択）</p>
         </div>
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center flex-1 my-auto">
-          <div class="lg:col-span-7 bg-white p-6 rounded-3xl shadow-[0_8px_30px_rgba(74,62,61,0.03)] border border-[#F5EFEB] h-[350px] lg:h-[420px] flex items-center justify-center">
+          <div class="lg:col-span-7 bg-white p-6 rounded-3xl shadow-[0_8px_30px_rgba(74,62,61,0.03)] border border-[#F5EFEB] h-[380px] lg:h-[450px] flex items-center justify-center">
             <canvas id="chart-happiness"></canvas>
           </div>
           <div class="lg:col-span-5 flex flex-col space-y-4">
             <div class="bg-[#FFFDF4] border border-[#F9D066] p-6 rounded-3xl">
               <div class="flex items-center space-x-3 mb-3">
-                <span class="text-3xl">💬</span>
-                <h4 class="font-extrabold text-[#4A3E3D] text-lg">平和の原点は「日常のなかに」</h4>
+                <span class="text-4xl">💬</span>
+                <h4 class="font-black text-[#4A3E3D] text-xl">平和の原点は「日常のなかに」</h4>
               </div>
-              <p class="text-sm text-[#6D5D5B] leading-relaxed font-medium">
+              <p class="text-base text-[#6D5D5B] leading-relaxed font-bold">
                 一番多かった答えは「何気ないおしゃべりで笑っている時」や「美味しいものを食べている時」でした。
                 平和とは、特別なことではなく、こうした<strong class="text-[#E88265]">「ささやかな日常の幸せ」を守り、広げること</strong>に他なりません。
               </p>
             </div>
             <div class="bg-[#FFF5F6] border border-[#F2A1A8] p-6 rounded-3xl flex items-center space-x-4">
-              <span class="text-4xl">✨</span>
-              <p class="text-xs text-[#6D5D5B] font-semibold leading-relaxed">
-                落研の漫才で笑顔になり、2WDCの金メダルパフォーマンスで興奮したあの高鳴りこそ、私たちが愛する「幸せ」の瞬間です！
+              <span class="text-5xl">✨</span>
+              <p class="text-sm text-[#6D5D5B] font-bold leading-relaxed">
+                落研の漫才で笑顔になり、2WDC的金メダルパフォーマンスで興奮したあの高鳴りこそ、私たちが愛する「幸せ」の瞬間です！
               </p>
             </div>
           </div>
@@ -122,25 +123,25 @@
 
       <div id="slide-2" class="slide-inactive w-full max-w-5xl flex flex-col h-full justify-between fade-in">
         <div class="text-center mb-4 shrink-0">
-          <span class="text-sm font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 02</span>
-          <h2 class="text-3xl lg:text-5xl font-extrabold text-[#4A3E3D]">いま「不安だな・なくなればいいのに」と思うこと</h2>
-          <p class="text-sm text-[#6D5D5B] mt-2 font-medium">（回答者150名・複数選択）</p>
+          <span class="text-base font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 02</span>
+          <h2 class="text-4xl lg:text-5xl font-black text-[#4A3E3D]">いま「不安だな・なくなればいいのに」と思うこと</h2>
+          <p class="text-base text-[#6D5D5B] mt-2 font-bold">（回答者954名・複数選択）</p>
         </div>
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center flex-1 my-auto">
           <div class="lg:col-span-5 order-2 lg:order-1 flex flex-col space-y-4">
             <div class="bg-[#F5F8FF] border border-[#DBEAFE] p-6 rounded-3xl">
               <div class="flex items-center space-x-3 mb-3">
-                <span class="text-3xl">🌧️</span>
-                <h4 class="font-extrabold text-[#4A3E3D] text-lg">世界の問題と、身近な問題</h4>
+                <span class="text-4xl">🌧️</span>
+                <h4 class="font-black text-[#4A3E3D] text-xl">世界の問題と、身近な問題</h4>
               </div>
-              <p class="text-sm text-[#6D5D5B] leading-relaxed font-medium">
+              <p class="text-base text-[#6D5D5B] leading-relaxed font-bold">
                 「世界で起きている戦争」という遠いニュースへの不安と同じくらい、<strong class="text-blue-600">「SNSのトゲトゲした空気」</strong>や「物価高・将来の不安」といった身近な課題に私たちは悩まされています。
               </p>
             </div>
             <div class="bg-[#FFF5F6] border border-[#F2A1A8] p-6 rounded-3xl flex items-center space-x-4">
-              <span class="text-4xl">🌈</span>
-              <p class="text-xs text-[#6D5D5B] font-semibold leading-relaxed">
+              <span class="text-5xl">🌈</span>
+              <p class="text-sm text-[#6D5D5B] font-bold leading-relaxed">
                 そのような宿命や困難に立ち向かって手を取り合ってきた狭間さん夫妻、山口姫子さんたちの体験発表は、まさに不安という雲を突き破る「虹」のようでした。
               </p>
             </div>
@@ -153,9 +154,9 @@
 
       <div id="slide-3" class="slide-inactive w-full max-w-5xl flex flex-col h-full justify-between fade-in">
         <div class="text-center mb-4 shrink-0">
-          <span class="text-sm font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 03</span>
-          <h2 class="text-3xl lg:text-5xl font-extrabold text-[#4A3E3D]">あなたが「心地いい社会」をつくるならどのタイプ？</h2>
-          <p class="text-sm text-[#6D5D5B] mt-2 font-medium">（回答者150名・あなたの平和キャラクター）</p>
+          <span class="text-base font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 03</span>
+          <h2 class="text-4xl lg:text-5xl font-black text-[#4A3E3D]">あなたが「心地いい社会」をつくるならどのタイプ？</h2>
+          <p class="text-base text-[#6D5D5B] mt-2 font-bold">（回答者954名・あなたの平和キャラクター）</p>
         </div>
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center flex-1 my-auto">
@@ -164,39 +165,39 @@
           </div>
           
           <div class="lg:col-span-6 flex flex-col space-y-3">
-            <div class="flex items-center space-x-3 p-3 bg-white border border-[#F5EFEB] rounded-2xl hover:border-[#F2A1A8] transition-all duration-300">
-              <span class="text-2xl p-2 bg-[#FFF5F6] rounded-xl">🤝</span>
+            <div class="flex items-center space-x-4 p-4 bg-white border border-[#F5EFEB] rounded-2xl hover:border-[#F2A1A8] transition-all duration-300">
+              <span class="text-3xl p-2 bg-[#FFF5F6] rounded-xl">🤝</span>
               <div class="text-left">
-                <h4 class="font-extrabold text-[#4A3E3D] text-sm">ピースサポーター (そっと寄り添い支える人) - 37.5%</h4>
-                <p class="text-xs text-[#6D5D5B]">隣にいる人を一番に労る、思いやりの中心人物。</p>
+                <h4 class="font-black text-[#4A3E3D] text-base">ピースサポーター (そっと寄り添い支える人) - 37.5%</h4>
+                <p class="text-sm text-[#6D5D5B] font-medium">隣にいる人を一番に労る、思いやりの中心人物。</p>
               </div>
             </div>
-            <div class="flex items-center space-x-3 p-3 bg-white border border-[#F5EFEB] rounded-2xl hover:border-[#F9D066] transition-all duration-300">
-              <span class="text-2xl p-2 bg-[#FFFDF4] rounded-xl">👂</span>
+            <div class="flex items-center space-x-4 p-4 bg-white border border-[#F5EFEB] rounded-2xl hover:border-[#F9D066] transition-all duration-300">
+              <span class="text-3xl p-2 bg-[#FFFDF4] rounded-xl">👂</span>
               <div class="text-left">
-                <h4 class="font-extrabold text-[#4A3E3D] text-sm">ピースリスナー (安心を届ける人) - 30.0%</h4>
-                <p class="text-xs text-[#6D5D5B]">批判をせず、まずは優しく相手の話を丁寧に聴く癒し手。</p>
+                <h4 class="font-black text-[#4A3E3D] text-base">ピースリスナー (安心を届ける人) - 30.0%</h4>
+                <p class="text-sm text-[#6D5D5B] font-medium">批判をせず、まずは優しく相手の話を丁寧に聴く癒し手。</p>
               </div>
             </div>
-            <div class="flex items-center space-x-3 p-3 bg-white border border-[#F5EFEB] rounded-2xl hover:border-[#7EB395] transition-all duration-300">
-              <span class="text-2xl p-2 bg-[#F0FDF4] rounded-xl">🕊️</span>
+            <div class="flex items-center space-x-4 p-4 bg-white border border-[#F5EFEB] rounded-2xl hover:border-[#7EB395] transition-all duration-300">
+              <span class="text-3xl p-2 bg-[#F0FDF4] rounded-xl">🕊️</span>
               <div class="text-left">
-                <h4 class="font-extrabold text-[#4A3E3D] text-sm">ピースコネクター (つながりを作る人) - 17.5%</h4>
-                <p class="text-xs text-[#6D5D5B]">世代や価値観の壁を超え、人と人を結ぶ架け橋。</p>
+                <h4 class="font-black text-[#4A3E3D] text-base">ピースコネクター (つながりを作る人) - 17.5%</h4>
+                <p class="text-sm text-[#6D5D5B] font-medium">世代や価値観の壁を超え、人と人を結ぶ架け橋。</p>
               </div>
             </div>
-            <div class="flex items-center space-x-3 p-3 bg-white border border-[#F5EFEB] rounded-2xl hover:border-orange-300 transition-all duration-300">
-              <span class="text-2xl p-2 bg-orange-50 rounded-xl">🎨</span>
+            <div class="flex items-center space-x-4 p-4 bg-white border border-[#F5EFEB] rounded-2xl hover:border-orange-300 transition-all duration-300">
+              <span class="text-3xl p-2 bg-orange-50 rounded-xl">🎨</span>
               <div class="text-left">
-                <h4 class="font-extrabold text-[#4A3E3D] text-sm">ピースクリエイター (言葉やカタチで伝える人) - 9.0%</h4>
-                <p class="text-xs text-[#6D5D5B]">デザイン、言葉、企画で平和の想いを可視化する表現者。</p>
+                <h4 class="font-black text-[#4A3E3D] text-base">ピースクリエイター (言葉やカタチで伝える人) - 9.0%</h4>
+                <p class="text-sm text-[#6D5D5B] font-medium">デザイン、言葉、企画で平和の想いを可視化する表現者。</p>
               </div>
             </div>
-            <div class="flex items-center space-x-3 p-3 bg-white border border-[#F5EFEB] rounded-2xl hover:border-purple-300 transition-all duration-300">
-              <span class="text-2xl p-2 bg-purple-50 rounded-xl">🏃</span>
+            <div class="flex items-center space-x-4 p-4 bg-white border border-[#F5EFEB] rounded-2xl hover:border-purple-300 transition-all duration-300">
+              <span class="text-3xl p-2 bg-purple-50 rounded-xl">🏃</span>
               <div class="text-left">
-                <h4 class="font-extrabold text-[#4A3E3D] text-sm">ピースアクター (表現で元気を届ける人) - 6.0%</h4>
-                <p class="text-xs text-[#6D5D5B]">歌、ダンス、行動など全身でハピネスを放つエンターテイナー。</p>
+                <h4 class="font-black text-[#4A3E3D] text-base">ピースアクター (表現で元気を届ける人) - 6.0%</h4>
+                <p class="text-sm text-[#6D5D5B] font-medium">歌、ダンス、行動など全身でハピネスを放つエンターテイナー。</p>
               </div>
             </div>
           </div>
@@ -205,36 +206,36 @@
 
       <div id="slide-4" class="slide-inactive w-full max-w-5xl flex flex-col h-full justify-between fade-in">
         <div class="text-center mb-4 shrink-0">
-          <span class="text-sm font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 04</span>
-          <h2 class="text-3xl lg:text-5xl font-extrabold text-[#4A3E3D]">これからの未来へ - 私たちのピースアクション</h2>
-          <p class="text-sm text-[#6D5D5B] mt-2 font-medium">（アンケートの自由回答から一部をピックアップ）</p>
+          <span class="text-base font-bold tracking-widest text-[#E88265] uppercase block mb-1">Slide 04</span>
+          <h2 class="text-4xl lg:text-5xl font-black text-[#4A3E3D]">これからの未来へ - 私たちのピースアクション</h2>
+          <p class="text-base text-[#6D5D5B] mt-2 font-bold">（アンケートの自由回答から一部をピックアップ）</p>
         </div>
         
         <div class="flex-1 flex flex-col justify-center items-center my-6 max-w-4xl mx-auto w-full">
-          <div id="message-card" class="bg-white border-2 border-[#F5EFEB] p-8 lg:p-12 rounded-3xl shadow-[0_12px_40px_rgba(74,62,61,0.04)] text-center relative w-full transition-all duration-500 min-h-[220px] flex flex-col justify-center">
-            <span class="text-6xl text-[#F2A1A8] font-serif absolute -top-4 left-6">“</span>
-            <p id="message-text" class="text-xl lg:text-3xl font-bold leading-relaxed text-[#4A3E3D] mb-6">
+          <div id="message-card" class="bg-white border-2 border-[#F5EFEB] p-8 lg:p-12 rounded-3xl shadow-[0_12px_40px_rgba(74,62,61,0.04)] text-center relative w-full transition-all duration-500 min-h-[260px] flex flex-col justify-center">
+            <span class="text-7xl text-[#F2A1A8] font-serif absolute -top-4 left-6">“</span>
+            <p id="message-text" class="text-2xl lg:text-4xl font-black leading-relaxed text-[#4A3E3D] mb-6 px-4">
               </p>
-            <span class="text-6xl text-[#F2A1A8] font-serif absolute -bottom-12 right-6">”</span>
-            <div id="message-meta" class="text-xs lg:text-sm font-bold text-[#E88265] mt-2">
+            <span class="text-7xl text-[#F2A1A8] font-serif absolute -bottom-14 right-6">”</span>
+            <div id="message-meta" class="text-sm lg:text-lg font-black text-[#E88265] mt-2">
               </div>
           </div>
           
-          <div class="flex space-x-2 mt-6">
-            <button onclick="prevMessage()" class="w-8 h-8 rounded-full bg-[#F5EFEB] hover:bg-[#E88265] hover:text-white transition-all text-xs flex items-center justify-center">◀</button>
-            <span id="message-index-indicator" class="text-xs font-bold text-[#6D5D5B] flex items-center">1 / 5</span>
-            <button onclick="nextMessage()" class="w-8 h-8 rounded-full bg-[#F5EFEB] hover:bg-[#E88265] hover:text-white transition-all text-xs flex items-center justify-center">▶</button>
+          <div class="flex space-x-3 mt-8">
+            <button onclick="prevMessage()" class="w-10 h-10 rounded-full bg-[#F5EFEB] hover:bg-[#E88265] hover:text-white transition-all text-sm flex items-center justify-center font-bold">◀</button>
+            <span id="message-index-indicator" class="text-sm font-black text-[#6D5D5B] flex items-center px-2">1 / 5</span>
+            <button onclick="nextMessage()" class="w-10 h-10 rounded-full bg-[#F5EFEB] hover:bg-[#E88265] hover:text-white transition-all text-sm flex items-center justify-center font-bold">▶</button>
           </div>
         </div>
       </div>
 
       <div class="mt-12 shrink-0 flex items-center space-x-6 z-10">
-        <button onclick="prevSlide()" class="w-12 h-12 rounded-full bg-white border border-[#D9C3BC] hover:bg-[#F5EFEB] active:scale-95 transition-all flex items-center justify-center text-lg font-bold shadow-sm">
+        <button onclick="prevSlide()" class="w-14 h-14 rounded-full bg-white border-2 border-[#D9C3BC] hover:bg-[#F5EFEB] active:scale-95 transition-all flex items-center justify-center text-xl font-black shadow-sm">
           ◀
         </button>
-        <div class="flex space-x-2" id="slide-dots">
+        <div class="flex space-x-3" id="slide-dots">
           </div>
-        <button onclick="nextSlide()" class="w-12 h-12 bg-white border border-[#D9C3BC] hover:bg-[#F5EFEB] active:scale-95 transition-all flex items-center justify-center text-lg font-bold shadow-sm">
+        <button onclick="nextSlide()" class="w-14 h-14 bg-white border-2 border-[#D9C3BC] hover:bg-[#F5EFEB] active:scale-95 transition-all flex items-center justify-center text-xl font-black shadow-sm">
           ▶
         </button>
       </div>
@@ -243,126 +244,126 @@
 
     <div id="presenter-sidebar" class="w-full md:w-[380px] lg:w-[450px] border-t md:border-t-0 md:border-l border-[#F5EFEB] bg-[#FFFDF9] flex flex-col transition-all duration-300 relative shrink-0">
       <div class="p-4 border-b border-[#F5EFEB] bg-[#FFF6ED] flex justify-between items-center shrink-0">
-        <div class="flex items-center space-x-2 text-sm font-bold text-[#4A3E3D]">
+        <div class="flex items-center space-x-2 text-base font-black text-[#4A3E3D]">
           <span>📢</span>
           <span>実行委員長 挨拶カンペ（プロンプター）</span>
         </div>
-        <button onclick="togglePresenterMode()" class="text-xs text-[#6D5D5B] hover:text-black">✕ 閉じる</button>
+        <button onclick="togglePresenterMode()" class="text-sm font-bold text-[#6D5D5B] hover:text-black">✕ 閉じる</button>
       </div>
       
       <div class="flex-1 p-6 overflow-y-auto space-y-6" id="prompter-content">
         <div id="prompter-part-0" class="prompter-section space-y-4">
           <div class="border-l-4 border-[#E88265] pl-3 py-1 bg-[#FFF5F6] rounded-r-md">
-            <span class="text-xs font-extrabold text-[#E88265]">オープニングトーク</span>
+            <span class="text-sm font-black text-[#E88265]">オープニングトーク</span>
           </div>
-          <p class="text-sm font-semibold text-[#6D5D5B] leading-relaxed">
+          <p class="text-sm font-bold text-[#6D5D5B] leading-relaxed">
             【登壇し、割れんばかりの拍手を浴びる中、お二人で正面を向き一礼】
           </p>
-          <div class="space-y-3">
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">井崎 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+          <div class="space-y-4">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">井崎 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
                 「皆さん、本日はこの『Hachioji Peace Fes』へようこそお越しくださいました！実行委員長の井崎です！本日ここまで、大結集した2500人のエネルギー、本当に凄まじい熱気です！」
               </p>
             </div>
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">川島 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">川島 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
                 「川島です！よろしくお願いします！この日のために、私たちは事前に多くの方に『平和へのアンケート』をお願いし、熱いお声をいただきました。本日はそのリアルな集計結果を皆さんと共有したいと思います。」
               </p>
             </div>
           </div>
-          <p class="text-xs text-[#E88265] font-bold">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
+          <p class="text-sm text-[#E88265] font-black">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
         </div>
 
         <div id="prompter-part-1" class="prompter-section hidden space-y-4">
           <div class="border-l-4 border-emerald-500 pl-3 py-1 bg-emerald-50 rounded-r-md">
-            <span class="text-xs font-extrabold text-emerald-600">テーマ1：日常の幸せ</span>
+            <span class="text-sm font-black text-emerald-600">テーマ1：日常の幸せ</span>
           </div>
-          <div class="space-y-3">
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">川島 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
-                「最初の質問、日常の中で『あぁ、幸せだな〜』としみじみ感じる瞬間。ダントツで多かったのは、特別なことではなく『家族や友人と笑い合っている時』、そこで『美味しいご飯やスイーツを食べている時』でした！」
+          <div class="space-y-4">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">川島 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+                「最初の質問、日常の中で『あぁ、幸せだな〜』としみじみ感じる瞬間。ダントツで多かったのは、特別なことではなく『家族や友人と笑い合っている時』、そして『美味しいご飯やスイーツを食べている時』でした！」
               </p>
             </div>
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">井崎 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">井崎 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
                 「本当にそうですね。ささやかな日常です。でも皆さん、今日の前座を飾ってくれた落語研究会の漫才で笑ったあの瞬間！そして『2WDC』の皆さんが、世界一の弾けるような笑顔とダンスを届けてくれたあの瞬間！あのワクワクと笑顔こそが、まさに私たちが愛する『幸せ』そのものではないでしょうか！」
               </p>
             </div>
           </div>
-          <p class="text-xs text-[#E88265] font-bold">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
+          <p class="text-sm text-[#E88265] font-black">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
         </div>
 
         <div id="prompter-part-2" class="prompter-section hidden space-y-4">
           <div class="border-l-4 border-blue-500 pl-3 py-1 bg-blue-50 rounded-r-md">
-            <span class="text-xs font-extrabold text-blue-600">テーマ2：社会の不安・課題</span>
+            <span class="text-sm font-black text-blue-600">テーマ2：社会の不安・課題</span>
           </div>
-          <div class="space-y-3">
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">川島 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+          <div class="space-y-4">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">川島 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
                 「しかし一方で、私たちは不安も抱えています。『不安に感じること』の答えを見てみましょう。世界の『戦争や紛争』と同等に大きかったのが、『SNSなどでの誹謗中傷、ネット上のトゲトゲした空気』や『将来のお金やキャリアへの不安』でした。」
               </p>
             </div>
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">井崎 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
-                「日々ニュースを見るたび、心が痛みます。しかし、今日のフェス中盤、困難な宿命や嵐のような大苦難に手を取り合って挑み抜かれた、狭間さん夫妻、山口姫子さんたちの『体験発表』。あの負けない心、寄り添う心があれば、必ずどんな暗闇にも希望の虹を架けられることを、私たちは今日、学ばせていただきました！」
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">井崎 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+                「日々ニュースを見るたび、心が痛みます。しかし、今日のフェス中盤、困難な宿命や嵐のような大苦難に手を取り合って挑み抜かれた、狭間さん夫妻、山口姫子さんたちの『体験発表』。あの負けない心、寄り抄う心があれば、必ずどんな暗闇にも希望の虹を架けられることを、私たちは今日、学ばせていただきました！」
               </p>
             </div>
           </div>
-          <p class="text-xs text-[#E88265] font-bold">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
+          <p class="text-sm text-[#E88265] font-black">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
         </div>
 
         <div id="prompter-part-3" class="prompter-section hidden space-y-4">
           <div class="border-l-4 border-purple-500 pl-3 py-1 bg-purple-50 rounded-r-md">
-            <span class="text-xs font-extrabold text-purple-600">テーマ3：平和をつくる個性</span>
+            <span class="text-sm font-black text-purple-600">テーマ3：平和をつくる個性</span>
           </div>
-          <div class="space-y-3">
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">川島 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+          <div class="space-y-4">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">川島 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
                 「では、そんな私たちが『誰もが心地よく過ごせる平和な社会』をつくるために、どのようなキャラクターになるか。結果をご覧ください。そっと寄り添うピースサポーターが37％、お話を聴くピースリスナーが30％。見事に綺麗に分かれました！」
               </p>
             </div>
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">井崎 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
-                「みんな違っていい。誰かをそっと励ますこと。夢に向かって挑戦すること。繋ぐこと。今日輝かしい発表をしてくれたユースの代表、状態Hachioji Peace Voiceの280名の皆さんも、全員がそれぞれの場所で平和を体現する、かけがえのない主役なんです！」
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">井崎 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+                「みんな違っていい。誰かをそっと励ますこと。夢に向かって挑戦すること。繋ぐこと。今日輝かしい発表をしてくれたユースの代表、そしてHachioji Peace Voiceの280名の皆さんも、全員がそれぞれの場所で平和を体現する、かけがえのない主役なんです！」
               </p>
             </div>
           </div>
-          <p class="text-xs text-[#E88265] font-bold">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
+          <p class="text-sm text-[#E88265] font-black">⇒ 【右矢印（▶）ボタンをクリックして次のスライドへ！】</p>
         </div>
 
         <div id="prompter-part-4" class="prompter-section hidden space-y-4">
           <div class="border-l-4 border-amber-500 pl-3 py-1 bg-amber-50 rounded-r-md">
-            <span class="text-xs font-extrabold text-amber-600">フィナーレへの決意</span>
+            <span class="text-sm font-black text-amber-600">フィナーレへの決意</span>
           </div>
-          <div class="space-y-3">
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">川島 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+          <div class="space-y-4">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">川島 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
                 「アンケートには、本当に素晴らしい具体的な平和へのアイデアがたくさん寄せられました。まずは目の前の身近な人を愛し、大切にすること。それがやがて八王子から、世界へと広がる確かな平和の波になります。」
               </p>
             </div>
-            <div class="p-3 bg-[#FFFDF4] rounded-2xl border border-[#F9D066]">
-              <span class="text-xs font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">井崎 委員長</span>
-              <p class="text-sm font-bold text-[#4A3E3D] mt-2 leading-relaxed">
+            <div class="p-4 bg-[#FFFDF4] rounded-2xl border-2 border-[#F9D066]">
+              <span class="text-xs font-black text-amber-700 bg-amber-100 px-2 py-1 rounded-full">井崎 委員長</span>
+              <p class="text-base font-bold text-[#4A3E3D] mt-2 leading-relaxed">
                 「さあ、この会場にいる2500人全員の心を一つに、最高の笑顔でフィナーレを飾りましょう。出演者の皆さんも、会場の皆さんも、ここにいる全員が平和をつくる主役です。未来への大いなる希望を歌いましょう！」
               </p>
             </div>
-            <div class="p-3 bg-[#E88265] text-white rounded-2xl shadow-md">
-              <span class="text-xs font-bold bg-white/20 text-white px-2 py-0.5 rounded-full">二人（声を揃えて）</span>
-              <p class="text-base font-black mt-2 leading-relaxed text-center">
+            <div class="p-4 bg-[#E88265] text-white rounded-2xl shadow-md">
+              <span class="text-sm font-black bg-white/20 text-white px-2 py-0.5 rounded-full">二人（声を揃えて）</span>
+              <p class="text-lg font-black mt-2 leading-relaxed text-center">
                 「私たちの平和の願いを込めて――『HAPPINESS』！！！」
               </p>
             </div>
           </div>
-          <p class="text-xs text-[#E88265] font-bold">⇒ 【大喝采のなか、フィナーレ曲『HAPPINESS』のイントロがスタート！出演者全員が笑顔で登壇。】</p>
+          <p class="text-sm text-[#E88265] font-black">⇒ 【大喝采のなか、フィナーレ曲『HAPPINESS』のイントロがスタート！出演者全員が笑顔で登壇。】</p>
         </div>
       </div>
       <div class="p-4 bg-[#F5EFEB] border-t border-[#D9C3BC] flex justify-between items-center text-xs text-[#6D5D5B] shrink-0">
@@ -372,9 +373,9 @@
 
   </main>
 
-  <footer class="bg-[#4A3E3D] text-[#FFFDF9]/60 text-xs py-4 px-6 flex flex-col md:flex-row justify-between items-center shrink-0">
-    <div>Hachioji Peace Fes 実行委員会 © 2026. All Rights Reserved.</div>
-    <div class="flex space-x-6 mt-2 md:m-0">
+  <footer class="bg-[#4A3E3D] text-[#FFFDF9]/60 text-sm py-4 px-6 flex flex-col md:flex-row justify-between items-center shrink-0">
+    <div class="font-bold">Hachioji Peace Fes 実行委員会 © 2026. All Rights Reserved.</div>
+    <div class="flex space-x-6 mt-2 md:m-0 font-bold">
       <span>会場: 創価大学体育館</span>
       <span>結集: 2,500名</span>
     </div>
@@ -556,6 +557,9 @@
 
     // スライドごとのグラフ描画トリガー
     function renderSlideCharts(slide) {
+      // グラフ内の文字サイズを一律で大きく設定（PC・プロジェクター向け）
+      const globalFontSize = 16; 
+      
       if (slide === 1) {
         if (happinessChart) happinessChart.destroy();
         const canvas = document.getElementById('chart-happiness');
@@ -584,18 +588,18 @@
               legend: { display: false },
               tooltip: {
                 backgroundColor: '#4A3E3D',
-                titleFont: { size: 14, family: 'Noto Sans JP' },
-                bodyFont: { size: 14, family: 'Noto Sans JP' }
+                titleFont: { size: globalFontSize, family: 'Noto Sans JP' },
+                bodyFont: { size: globalFontSize, family: 'Noto Sans JP' }
               }
             },
             scales: {
               x: {
                 grid: { display: false },
-                ticks: { color: '#6D5D5B', font: { family: 'Noto Sans JP', size: 12 } }
+                ticks: { color: '#6D5D5B', font: { family: 'Noto Sans JP', size: globalFontSize - 2 } }
               },
               y: {
                 grid: { display: false },
-                ticks: { color: '#4A3E3D', font: { family: 'Noto Sans JP', size: 14, weight: 'bold' } }
+                ticks: { color: '#4A3E3D', font: { family: 'Noto Sans JP', size: globalFontSize, weight: 'bold' } }
               }
             }
           }
@@ -627,18 +631,18 @@
               legend: { display: false },
               tooltip: {
                 backgroundColor: '#4A3E3D',
-                titleFont: { size: 14, family: 'Noto Sans JP' },
-                bodyFont: { size: 14, family: 'Noto Sans JP' }
+                titleFont: { size: globalFontSize, family: 'Noto Sans JP' },
+                bodyFont: { size: globalFontSize, family: 'Noto Sans JP' }
               }
             },
             scales: {
               x: {
                 grid: { display: false },
-                ticks: { color: '#6D5D5B', font: { family: 'Noto Sans JP', size: 12 } }
+                ticks: { color: '#6D5D5B', font: { family: 'Noto Sans JP', size: globalFontSize - 2 } }
               },
               y: {
                 grid: { display: false },
-                ticks: { color: '#4A3E3D', font: { family: 'Noto Sans JP', size: 13, weight: 'bold' } }
+                ticks: { color: '#4A3E3D', font: { family: 'Noto Sans JP', size: globalFontSize, weight: 'bold' } }
               }
             }
           }
@@ -674,13 +678,13 @@
                 position: 'bottom',
                 labels: {
                   color: '#4A3E3D',
-                  font: { family: 'Noto Sans JP', size: 12, weight: 'bold' },
+                  font: { family: 'Noto Sans JP', size: globalFontSize - 1, weight: 'bold' },
                   padding: 15
                 }
               },
               tooltip: {
                 backgroundColor: '#4A3E3D',
-                bodyFont: { size: 14, family: 'Noto Sans JP' },
+                bodyFont: { size: globalFontSize, family: 'Noto Sans JP' },
                 callbacks: {
                   label: function(context) {
                     return ` ${context.label}: ${context.raw}%`;
